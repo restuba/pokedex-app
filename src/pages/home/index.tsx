@@ -13,9 +13,9 @@ const Home = () => {
       {/* wrapper */}
       <div className="mx-auto flex max-w-[1444px] flex-col gap-y-10 px-10 py-8">
         <Header />
-        <main className="flex flex-col mobileL:flex-row">
+        <main className="flex flex-col gap-x-10 mobileL:flex-row">
           {/* handler and content */}
-          <section className="flex flex-1 flex-col gap-y-7 bg-amber-400">
+          <section className="flex flex-1 flex-col gap-y-7">
             {/* search bar */}
             <SearchBar />
             {/* filter section */}
