@@ -5,7 +5,8 @@ module.exports = {
       boxShadow: {
         1: '0px 4px 18px rgba(0, 0, 0, 0.17)',
         2: '0px 1px 5px -363px rgba(0, 0, 0, 0.19)',
-        3: '0px 6px 16px rgba(0, 0, 0, 0.12)'
+        3: '0px 6px 16px rgba(0, 0, 0, 0.12)',
+        'red-1': '#fb5350 0px 5px 15px'
       },
       fontSize: {
         h1: ['40px', '60px'],

@@ -19,3 +19,4 @@ export { ReactComponent as steelTypeIcon } from './icons/type/steel.svg';
 export { ReactComponent as waterTypeIcon } from './icons/type/water.svg';
 
 // images
+export { default as pokeballImage } from './images/pokeball-image.png';
