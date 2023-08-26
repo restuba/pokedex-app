@@ -7,7 +7,7 @@ import menus from './menus';
 const Header = () => {
   const location = useLocation();
   return (
-    <div className="hide-scrollbar scroll-box flex h-14 flex-nowrap gap-x-6 overflow-x-scroll rounded-lg bg-white px-8 shadow-3 mobileL:h-20 laptop:h-20 laptopL:justify-around">
+    <div className="hide-scrollbar scroll-box flex h-14 flex-nowrap gap-x-6 overflow-x-scroll rounded-lg bg-white px-5 shadow-3  mobileL:h-20 laptop:h-20 laptopL:justify-around laptopL:px-8">
       {menus.map(item => {
         const Icon = item?.icon;
         const isActive = item?.to === location.pathname;
