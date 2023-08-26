@@ -5,7 +5,7 @@ const List = () => {
     <div className="grid gap-x-7 gap-y-10" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
       {[...Array(10)].map((item, idx) => {
         return (
-          <div key={idx} className="bg-red-400">
+          <div key={idx} className="">
             item-{idx + 1}
           </div>
         );
