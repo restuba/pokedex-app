@@ -11,7 +11,7 @@ const Home = () => {
     // layout
     <div className="min-h-screen bg-main-lighter">
       {/* wrapper */}
-      <div className="mx-auto flex max-w-[1444px] flex-col gap-y-10 bg-main-primary px-10 py-8">
+      <div className="mx-auto flex max-w-[1444px] flex-col gap-y-10 px-10 py-8">
         <Header />
         <main className="flex flex-col mobileL:flex-row">
           {/* handler and content */}
